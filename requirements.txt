@@ -1,0 +1,2 @@
+# 1.4 keeps duplicate keys as separate entries, which the checker needs.
+bibtexparser==1.4.3
