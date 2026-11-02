@@ -1,0 +1,4 @@
+# Legacy citation keys already used by the notes.
+# They predate the authorYEARkeyword rule. Do not rename them.
+tongStatisticalPhysics
+fitzpatrickEffusion
