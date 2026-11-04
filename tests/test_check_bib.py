@@ -27,7 +27,7 @@ class BibliographyTests(unittest.TestCase):
     def test_shared_bibliography_passes(self):
         text = (ROOT / "bibliography.bib").read_text(encoding="utf-8")
         entries, issues = check_bib.check_text(text, ALLOW)
-        self.assertEqual(len(entries), 50)
+        self.assertEqual(len(entries), 51)
         self.assertEqual(levels(issues, "error"), [])
         warnings = levels(issues, "warning")
         by_key: dict[str, list[str]] = {}
